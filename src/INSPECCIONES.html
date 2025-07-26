@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Inspección Preoperativa - Parque del Café</title>
+  <link rel="stylesheet" href="styles/instilos.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <header>
+<nav>
+  <div class="nav-izquierda">
+    <div class="logo">Parque del Café</div>
+  </div>
+  <div class="nav-derecha">
+    <ul class="nav-links">
+            <li><a href="index.html" class="active">Inicio</a></li>
+            <li><a href="solicitud.html">Solicitudes</a></li>
+            <li><a href="#">Registradora</a></li>
+            <li><a href="REPORTES.html">Reportes</a></li>
+    </ul>
+  </div>
+</nav>
+  </header>
+  <main>
+        <main class="main-content">
+        <div class="container">
+            <h1 class="page-title">Inspeccion preoperativa</h1>
+
+    <form id="inspeccionForm">
+      <div class="card">
+        <h2>Datos Generales</h2>
+        <div class="table">
+          <label>Fecha:
+            <input type="date" name="fecha" required>
+          </label>
+          <label>Hora de Apertura (Primer ciclo):
+            <input type="time" name="hora_apertura" required>
+          </label>
+          <label>Hora de Cierre (Último ciclo):
+            <input type="time" name="hora_cierre" required>
+          </label>
+          <label>Registradora Inicial del Día:
+            <input type="number" name="reg_inicial" min="0" required>
+          </label>
+          <label>Registradora Final del Día:
+            <input type="number" name="reg_final" min="0" required>
+          </label>
+          <label>Número de Botes en Operación:
+            <input type="number" name="num_botes" min="0" required>
+          </label>
+          <label>Nombre de los Operarios a Cargo:
+            <input type="text" name="operarios" required>
+          </label>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Mantenimiento</h2>
+        <div class="table">
+          <label>Firma del mantenedor a cargo:
+            <select name="firma_mantenedor" required>
+              <option value="">Seleccione</option>
+              <option value="si">Sí</option>
+              <option value="no">No</option>
+            </select>
+          </label>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Inspecciones</h2>
+        <div class="table">
+          <label>Inspección Visual:
+            <input type="checkbox" name="insp_visual">
+          </label>
+          <label>Inspección Funcional:
+            <input type="checkbox" name="insp_funcional">
+          </label>
+          <label>Realizar Aseo:
+            <input type="checkbox" name="realizar_aseo">
+          </label>
+          <label>Inspección de los Botes:
+            <input type="checkbox" name="insp_botes">
+          </label>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Observaciones y Pruebas</h2>
+        <div class="table">
+          <label>Observaciones:
+            <textarea name="observaciones" rows="3"></textarea>
+          </label>
+          <label>Encendido y Prueba:
+            <textarea name="encendido_prueba" rows="2"></textarea>
+          </label>
+        </div>
+      </div>
+
+      <div class="botonera">
+        <button type="submit" class="btn-principal">Guardar</button>
+      </div>
+      <div id="mensaje" style="margin-top:15px"></div>
+    </form>
+  </main>
+  <footer>
+    Sistema de Inspección Preoperativa - Parque del Café &copy; 2025
+  </footer>
+  <script src="guardar.js"></script>
+</body>
+</html>
