@@ -1,51 +1,113 @@
-# sistema de inspecion preoperacional para el PArque del cafe
+# Sistema de Inspección Preoperacional para el Parque del Café
 
-## DEscricion general
-El sistema de inspección preoperacional está diseñado para facilitar y racionalizar los procesos de inspección en Parque del Café. Esta aplicación web proporciona un tablero para inspecciones de monitoreo, solicitudes y estadísticas de visitantes, junto con botones de acción rápida para iniciar nuevas inspecciones y solicitudes.
+## Descripción general
+El sistema de inspección preoperacional está diseñado para facilitar y racionalizar los procesos de inspección en el Parque del Café. Esta aplicación web ofrece un tablero interactivo para gestionar inspecciones, visualizar estadísticas en tiempo real y administrar datos de visitantes. El objetivo principal es mejorar la eficiencia y trazabilidad de las inspecciones previas a la operación de los activos y áreas del parque.
 
-## ESTRUCTURA DEL PROYECTO
-```Sistema de inspeccion preoperacional
+## Estructura del proyecto
+```
+Sistema de inspección preoperacional
 ├── src
-│   ├── index.html         # documento html principal para la aplicacion
+│   ├── index.html         # Documento HTML principal de la aplicación
 │   ├── styles
-│   │   └── main.css       # CSS styles para la aplicacion
+│   │   └── main.css       # Hojas de estilo CSS
 │   ├── scripts
-│   │   └── app.js         # Codigo JavaScrip para la funcionalidad de la aplicacion
+│   │   └── app.js         # Código JavaScript para la funcionalidad de la aplicación
 │   └── activos
-│       └── favicon.ico     # Favicon para la aplicacion
-├── package.json           # npm file de configuracion
-└── README.md              # documentacion para el proyecto
+│       └── favicon.ico    # Icono de la aplicación
+├── package.json           # Archivo de configuración de dependencias (npm)
+└── README.md              # Documentación del proyecto
 ```
 
 ## Instalación
-1. Clon el repositorio: 
-`` `` `` 
-Git Clone <Repository-URL> 
-`` `` ``
-2. Navegue al directorio del proyecto: 
-`` `` `` 
-Sistema de inspección preoperacional CD 
-`` `` ``
-3. Instale las dependencias necesarias: 
-`` `` `` 
-instalación de NPM 
-`` `` ``
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/proyectoabo79-del/proyecto-productivo.git
+   ```
+
+2. Navega al directorio del proyecto:
+   ```bash
+   cd proyecto-productivo
+   ```
+
+3. Instala las dependencias necesarias (si se requiere Node.js/NPM):
+   ```bash
+   npm install
+   ```
 
 ## Uso
-- Abra `src/index.html` en un navegador web para ver la aplicación.
+
+- Abre `src/index.html` en un navegador web para acceder a la aplicación.
 - El tablero muestra estadísticas en tiempo real relacionadas con inspecciones y datos de visitantes.
-- Use los botones de acción para iniciar nuevas inspecciones o solicitudes.
+- Utiliza los botones de acción para iniciar nuevas inspecciones o solicitudes.
 
 ## Características
-- Diseño receptivo para vistas móviles y de escritorio.
-- Visualización de números animados para la visualización de datos dinámicos.
-- Funcionalidad de alternativa de tema para la preferencia del usuario.
 
-## contribuyendo
-¡Las contribuciones son bienvenidas! Envíe una solicitud de extracción o abra un problema para obtener mejoras o correcciones de errores.
+- Diseño responsivo para dispositivos móviles y escritorio.
+- Visualización de números animados para datos dinámicos.
+- Alternancia de tema claro/oscuro según preferencia del usuario.
+- Gestión centralizada de inspecciones y generación de reportes.
+
+## Contribuciones
+
+¡Las contribuciones son bienvenidas! Puedes enviar un pull request o abrir un issue para sugerir mejoras o reportar errores.
 
 ## Licencia
-Este proyecto tiene licencia bajo la licencia MIT. Consulte el archivo de licencia para obtener más detalles.# tema-ABO-PdC
-# tema-ABO-PdC
-# tema-ABO-PdC
-# proyecto-productivo
+
+Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.# Sistema de Inspección Preoperacional para el Parque del Café
+
+## Descripción general
+El sistema de inspección preoperacional está diseñado para facilitar y racionalizar los procesos de inspección en el Parque del Café. Esta aplicación web ofrece un tablero interactivo para gestionar inspecciones, visualizar estadísticas en tiempo real y administrar datos de visitantes. El objetivo principal es mejorar la eficiencia y trazabilidad de las inspecciones previas a la operación de los activos y áreas del parque.
+
+## Estructura del proyecto
+```
+Sistema de inspección preoperacional
+├── src
+│   ├── index.html         # Documento HTML principal de la aplicación
+│   ├── styles
+│   │   └── main.css       # Hojas de estilo CSS
+│   ├── scripts
+│   │   └── app.js         # Código JavaScript para la funcionalidad de la aplicación
+│   └── activos
+│       └── favicon.ico    # Icono de la aplicación
+├── package.json           # Archivo de configuración de dependencias (npm)
+└── README.md              # Documentación del proyecto
+```
+
+## Instalación
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/proyectoabo79-del/proyecto-productivo.git
+   ```
+
+2. Navega al directorio del proyecto:
+   ```bash
+   cd proyecto-productivo
+   ```
+
+3. Instala las dependencias necesarias (si se requiere Node.js/NPM):
+   ```bash
+   npm install
+   ```
+
+## Uso
+
+- Abre `src/index.html` en un navegador web para acceder a la aplicación.
+- El tablero muestra estadísticas en tiempo real relacionadas con inspecciones y datos de visitantes.
+- Utiliza los botones de acción para iniciar nuevas inspecciones o solicitudes.
+
+## Características
+
+- Diseño responsivo para dispositivos móviles y escritorio.
+- Visualización de números animados para datos dinámicos.
+- Alternancia de tema claro/oscuro según preferencia del usuario.
+- Gestión centralizada de inspecciones y generación de reportes.
+
+## Contribuciones
+
+¡Las contribuciones son bienvenidas! Puedes enviar un pull request o abrir un issue para sugerir mejoras o reportar errores.
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
