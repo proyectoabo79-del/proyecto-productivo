@@ -45,4 +45,6 @@ instalación de NPM
 ¡Las contribuciones son bienvenidas! Envíe una solicitud de extracción o abra un problema para obtener mejoras o correcciones de errores.
 
 ## Licencia
-Este proyecto tiene licencia bajo la licencia MIT. Consulte el archivo de licencia para obtener más detalles.
+Este proyecto tiene licencia bajo la licencia MIT. Consulte el archivo de licencia para obtener más detalles.# tema-ABO-PdC
+# tema-ABO-PdC
+# tema-ABO-PdC
